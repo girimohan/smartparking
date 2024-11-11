@@ -1,0 +1,26 @@
+version: "3.1"
+
+stories:
+
+- story: greet and ask for parking
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: ask_parking_availability
+  - action: utter_ask_location
+  - intent: provide_location
+  - action: utter_confirm_location
+  - action: action_check_parking_availability
+
+- story: direct ask for parking
+  steps:
+  - intent: ask_parking_availability
+  - action: utter_ask_location
+  - intent: provide_location
+  - action: utter_confirm_location
+  - action: action_check_parking_availability
+
+- story: say goodbye
+  steps:
+  - intent: goodbye
+  - action: utter_goodbye

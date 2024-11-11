@@ -1,0 +1,39 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+
+- intent: goodbye
+  examples: |
+    - bye
+    - goodbye
+    - see you around
+    - see you later
+
+- intent: ask_parking_availability
+  examples: |
+    - Is there parking available in [downtown](location)?
+    - Can I find a parking spot near [Main Street](location)?
+    - Are there any open parking spaces in [Central Park](location)?
+    - I need to park near [City Hall](location)
+    - Is there parking available at [Shopping Mall](location)?
+    - Can you check parking availability in [Business District](location)?
+
+- intent: provide_location
+  examples: |
+    - [downtown](location)
+    - [Main Street](location)
+    - [Central Park](location)
+    - [City Hall](location)
+    - [Shopping Mall](location)
+    - [Business District](location)
+    - I'm looking for parking in [downtown](location)
+    - Check [Main Street](location) please
+    - Can you look at [Central Park](location) area?

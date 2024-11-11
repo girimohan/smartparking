@@ -1,0 +1,129 @@
+# Project-specific datasets and models
+dataset/
+dataset_small/
+pklot_small_data/
+yolov5/
+pklot_dataset/
+pklot_1500/
+parking_images/
+synthetic_pklot_dataset/
+
+# Large files
+*.zip
+*.tar
+*.gz
+*.rar
+*.7z
+
+#
+runs/
+*.tfevents.*
+events.out.*
+# Model files
+*.pt
+*.pth
+*.weights
+*.onnx
+*.mlmodel
+*.torchscript
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.env
+.venv
+env.bak/
+venv.bak/
+
+# IDE specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb
+
+# Rasa specific
+.rasa/
+models/
+results/
+story_graph.dot
+
+# Logs and databases
+*.log
+*.sqlite
+*.db
+logs/
+*.out
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Media files
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.mp4
+*.avi
+*.mov
+
+# Configuration files
+*.env
+.env.local
+.env.*.local
+config.local.py
+
+# Temporary files
+tmp/
+temp/
+.temp/
+*.tmp
+*.temp
+
+# Documentation build
+docs/_build/
+site/
+
+# Testing
+.coverage
+.pytest_cache/
+htmlcov/
+.tox/
+.nox/
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
